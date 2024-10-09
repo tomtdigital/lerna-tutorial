@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.6](https://github.com/tomtdigital/lerna-tutorial/compare/for-the-lulz-is-even@0.0.5...for-the-lulz-is-even@0.0.6) (2024-10-09)
+
+**Note:** Version bump only for package for-the-lulz-is-even
+
+
+
+
+
 ## [0.0.5](https://github.com/tomtdigital/lerna-tutorial/compare/for-the-lulz-is-even@0.0.3...for-the-lulz-is-even@0.0.5) (2024-10-09)
 
 **Note:** Version bump only for package for-the-lulz-is-even
