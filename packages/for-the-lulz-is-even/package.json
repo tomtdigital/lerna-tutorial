@@ -1,0 +1,30 @@
+{
+  "name": "for-the-lulz-is-even",
+  "version": "0.0.0",
+  "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
+  "author": "Tom Davies <tom.tdigital@gmail.com>",
+  "license": "ISC",
+  "main": "dist/for-the-lulz-is-even.js",
+  "types": "dist/for-the-lulz-is-even.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "for-the-lulz-is-odd": "file:../for-the-lulz-is-odd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomtdigital/lerna-tutorial.git"
+  },
+  "scripts": {
+    "build": "npx lerna run build --scope=for-the-lulz-is-odd && tsc",
+    "test": "npx lerna run build --scope=for-the-lulz-is-odd && npx lerna run build --scope=for-the-lulz-is-even && jest"
+  },
+  "bugs": {
+    "url": "https://github.com/tomtdigital/lerna-tutorial/issues"
+  }
+}

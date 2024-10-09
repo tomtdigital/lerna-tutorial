@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "description": "> TODO: description",
   "author": "Tom Davies <tom.tdigital@gmail.com>",
-  "homepage": "https://github.com/tomtdigital/lerna-tutorial#readme",
   "license": "ISC",
   "main": "dist/for-the-lulz-is-odd.js",
   "types": "dist/for-the-lulz-is-odd.d.ts",

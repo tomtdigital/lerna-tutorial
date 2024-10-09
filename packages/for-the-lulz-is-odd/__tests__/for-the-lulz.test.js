@@ -1,6 +1,6 @@
-const isOdd = require("../dist/for-the-lulz-is-odd.js");
+const { isOdd } = require("../dist/for-the-lulz-is-odd.js");
 
 test("isOdd", () => {
-  isExportDeclaration(isOdd(1).toBe(true));
-  isExportDeclaration(isOdd(2).toBe(false));
+  expect(isOdd(1)).toBe(true);
+  expect(isOdd(2)).toBe(false);
 });
