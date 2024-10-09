@@ -1,6 +1,6 @@
 # `for-the-lulz-is-odd`
 
-> TODO: description
+> TODO: description!
 
 ## Usage
 
