@@ -3,5 +3,5 @@ node_modules/
 dist/
 # NX
 .nx/cache
-.nx/workspace-data/d
+.nx/workspace-data
 *.log
