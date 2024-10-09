@@ -19,7 +19,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "test": "lerna run build --scope=for-the-lulz-is-odd && jest"
+    "test": "jest"
   },
   "bugs": {
     "url": "https://github.com/tomtdigital/lerna-tutorial/issues"

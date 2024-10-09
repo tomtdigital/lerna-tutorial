@@ -1,0 +1,88 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.8.4",
+  "deps": {
+    "jest": "^29.7.0",
+    "lerna": "^8.1.8",
+    "typescript": "^5.6.2"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "package.json",
+        "hash": "9489774670502334955"
+      },
+      {
+        "file": "lerna-debug.log",
+        "hash": "13590351246686779608"
+      },
+      {
+        "file": "nx.json",
+        "hash": "15387737132171533885"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "3869125419520738064"
+      },
+      {
+        "file": "lerna.json",
+        "hash": "10307142885639291195"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "1656926495320240091"
+      }
+    ],
+    "projectFileMap": {
+      "for-the-lulz-is-odd": [
+        {
+          "file": "packages/for-the-lulz-is-odd/README.md",
+          "hash": "4051607925676663938"
+        },
+        {
+          "file": "packages/for-the-lulz-is-odd/__tests__/for-the-lulz.test.js",
+          "hash": "1957954736761416335"
+        },
+        {
+          "file": "packages/for-the-lulz-is-odd/lib/for-the-lulz-is-odd.ts",
+          "hash": "9437286516893074068"
+        },
+        {
+          "file": "packages/for-the-lulz-is-odd/package.json",
+          "hash": "524933886684781668"
+        },
+        {
+          "file": "packages/for-the-lulz-is-odd/tsconfig.json",
+          "hash": "577573284747600561"
+        }
+      ],
+      "for-the-lulz-is-even": [
+        {
+          "file": "packages/for-the-lulz-is-even/README.md",
+          "hash": "11868614832984503508"
+        },
+        {
+          "file": "packages/for-the-lulz-is-even/__tests__/for-the-lulz-is-even.test.js",
+          "hash": "8060849838528794175"
+        },
+        {
+          "file": "packages/for-the-lulz-is-even/lib/for-the-lulz-is-even.ts",
+          "hash": "15557608244826751966"
+        },
+        {
+          "file": "packages/for-the-lulz-is-even/package.json",
+          "hash": "5468315701749315583",
+          "deps": [
+            "for-the-lulz-is-odd"
+          ]
+        },
+        {
+          "file": "packages/for-the-lulz-is-even/tsconfig.json",
+          "hash": "7329740519423771989"
+        }
+      ]
+    }
+  }
+}

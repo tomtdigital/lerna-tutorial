@@ -21,8 +21,8 @@
     "url": "git+https://github.com/tomtdigital/lerna-tutorial.git"
   },
   "scripts": {
-    "build": "npx lerna run build --scope=for-the-lulz-is-odd && tsc",
-    "test": "npx lerna run build --scope=for-the-lulz-is-odd && npx lerna run build --scope=for-the-lulz-is-even && jest"
+    "build": "tsc",
+    "test": "jest"
   },
   "bugs": {
     "url": "https://github.com/tomtdigital/lerna-tutorial/issues"
