@@ -11,28 +11,28 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "package.json",
-        "hash": "9489774670502334955"
+        "file": ".gitignore",
+        "hash": "1656926495320240091"
       },
       {
         "file": "lerna-debug.log",
         "hash": "13590351246686779608"
       },
       {
-        "file": "nx.json",
-        "hash": "15387737132171533885"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "3869125419520738064"
+        "file": "package.json",
+        "hash": "9489774670502334955"
       },
       {
         "file": "lerna.json",
         "hash": "10307142885639291195"
       },
       {
-        "file": ".gitignore",
-        "hash": "1656926495320240091"
+        "file": "package-lock.json",
+        "hash": "3869125419520738064"
+      },
+      {
+        "file": "nx.json",
+        "hash": "14401527243449259290"
       }
     ],
     "projectFileMap": {
@@ -80,7 +80,7 @@
         },
         {
           "file": "packages/for-the-lulz-is-even/tsconfig.json",
-          "hash": "7329740519423771989"
+          "hash": "15303874720716438459"
         }
       ]
     }

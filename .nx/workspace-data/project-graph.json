@@ -52,6 +52,7 @@
             "parallelism": true,
             "cache": true,
             "dependsOn": [
+              "build",
               "^build"
             ]
           },
@@ -120,6 +121,7 @@
             "parallelism": true,
             "cache": true,
             "dependsOn": [
+              "build",
               "^build"
             ]
           },
